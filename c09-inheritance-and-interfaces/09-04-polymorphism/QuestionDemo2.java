@@ -29,5 +29,6 @@ public class QuestionDemo2
 		Scanner in = new Scanner(System.in);
 		String response = in.nextLine();
 		System.out.println(q.checkAnswer(response));
+		in.close();
 	}
 }
