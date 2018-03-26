@@ -11,5 +11,6 @@ public class FruitTester
         System.out.println(obj instanceof Fruit); // -> true
 
         // But you still can't use it to call getColor
+        
     }
 }
