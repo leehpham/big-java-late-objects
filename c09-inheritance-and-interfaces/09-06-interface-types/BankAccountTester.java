@@ -1,9 +1,11 @@
+import java.util.Arrays;
+
 public class BankAccountTester
 {
     public static void main(String[] args)
     {
         BankAccount ba = new BankAccount(100.00);
-        System.out.println(ba.getBalance());
+        System.out.println(ba.getMeasure());
         System.out.println(ba.toString());
 
         // Test the compareTo method implemented from Comparable interface
@@ -16,7 +18,7 @@ public class BankAccountTester
         // Print out the sorted array
         for (BankAccount account : accounts)
         {
-            System
+            System.out.println(account.toString());
         }
     }
 }
