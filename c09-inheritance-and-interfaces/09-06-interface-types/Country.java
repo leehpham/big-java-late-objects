@@ -14,6 +14,11 @@ public class Country implements Measurable
         return area;
     }
 
+    public String getName()
+    {
+        return name;
+    }
+
     /**
      * Overrides the toString method from Object class
      * @param
