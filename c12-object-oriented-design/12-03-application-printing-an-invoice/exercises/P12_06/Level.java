@@ -21,6 +21,12 @@ public class Level
     }
 
     /**
+     * Gets the level number
+     * @return the level number
+     */
+    public int getLevelNumber() { return levelNumber; }
+
+    /**
      * Gets the array list containg problems
      * @return an array list containing the problems
      */
@@ -32,6 +38,9 @@ public class Level
      */
     public int getPoints() { return points; }
 
+    /**
+     * 
+     */
     public void generateProblem()
     {
         Random randomGenerator = new Random();

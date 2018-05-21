@@ -1,6 +1,6 @@
 Campaign
-    (has a) Level
-        - number
+    Level
+        - levelNumber
         - points
         (has a) Problem
             - operands

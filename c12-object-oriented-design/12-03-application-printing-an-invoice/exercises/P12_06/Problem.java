@@ -43,17 +43,6 @@ public class Problem
     public int getUserAnswer() { return userAnswer; }
 
     /**
-     * Gets user input from the console and sets userAnswer's value
-     */
-    // public void getInput()
-    // {
-    //     Scanner sc = new Scanner(System.in);
-    //     System.out.print("Enter your answer: ");
-    //     userAnswer = sc.nextInt();
-    //     sc.close();
-    // }
-
-    /**
      * Gets the solution
      * @return the solution
      */
