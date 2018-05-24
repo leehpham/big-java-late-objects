@@ -24,6 +24,16 @@ public class User
         this.mailbox = new Mailbox();
     }
 
+    public void setUsername(String username)
+    {
+        this.username = username;
+    }
+
+    public void setPassword(String password)
+    {
+        this.password = password;
+    }
+
     /**
      * Gets username
      * @return the username
