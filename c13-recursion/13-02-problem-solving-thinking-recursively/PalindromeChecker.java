@@ -2,7 +2,7 @@ public class PalindromeChecker
 {
     public static void main(String[] args)
     {
-        String input = "Hoang Pham";
+        String input = "!madam@";
         System.out.println(isPalindrome(input));
     }
 
