@@ -1,0 +1,9 @@
+1: how to simplify the inputs?
+- Remove the first character.
+2: combine solutions for simpler inputs into a solution
+- If the substring at the beginning of the text matches, return true. If not, remove the first character, then call the method on the smaller 
+3: find solutions to the simplest inputs.
+- When the smaller text's length is equal to the target string's length:
+    - if they are equal, return true
+    - if they are not, return false
+4: implement the solution

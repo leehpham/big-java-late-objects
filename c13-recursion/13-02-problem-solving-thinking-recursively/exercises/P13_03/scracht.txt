@@ -1,0 +1,7 @@
+1: how to simplify inputs?
+- Remove the first character.
+2: turn solutions for smaller inputs into a solution for original problem
+- Remove the first character then call the method on the shorter string. Then concatenate the retun value with the first character at the end.
+3: find solutions for the simplest inputs:
+- Calling the method on a string with length 1 returns the string itself (a 1-character string is also its reverse)
+4: Implement the solution
